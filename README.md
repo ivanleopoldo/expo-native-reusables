@@ -2,7 +2,7 @@
 
 This is an [Expo](https://expo.dev) SDK 54 project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-[NativeWind](https://www.nativewind.dev/) and [React Native Reusables](https://reactnativereusables.com/) are already installed and configured.
+[NativeWind](https://www.nativewind.dev/) and [React Native Reusables](https://reactnativereusables.com/) are already installed and configured with Expo SDK 54.
 
 ## Get started
 
