@@ -80,7 +80,9 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     },
     extra: {
       router: {},
-      projectId: EXPO_PROJECT_ID,
+      eas: {
+        projectId: EXPO_PROJECT_ID,
+      },
     },
     owner: OWNER,
   };
