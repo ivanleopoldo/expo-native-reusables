@@ -1,12 +1,13 @@
 import { ExpoConfig, ConfigContext } from "expo/config";
 import { version } from "./package.json";
 
+// changes these variables
 const NAME = "MyApp";
-const OWNER = "owner";
+const OWNER = "ivaintwc";
 const SLUG = "myapp";
 const SCHEME = "myapp";
-const PACKAGE_NAME = "com.owner.myapp";
-const BUNDLE_IDENTIFIER = "com.owner.myapp";
+const PACKAGE_NAME = "com.ivaintwc.myapp";
+const BUNDLE_IDENTIFIER = "com.ivaintwc.myapp";
 
 const ICON = "./assets/images/icon.png";
 const SPLASH_ICON = {
@@ -20,9 +21,9 @@ const SPLASH_ICON = {
 };
 const ADAPTIVE_ICON = {
   backgroundColor: "#E6F4FE",
-  background: "./assets/images/adaptive-icon-background.png",
-  foreground: "./assets/images/adaptive-icon-foreground.png",
-  monochrome: "./assets/images/adaptive-icon-monochrome.png",
+  background: "./assets/images/android-icon-background.png",
+  foreground: "./assets/images/android-icon-foreground.png",
+  monochrome: "./assets/images/android-icon-monochrome.png",
 };
 
 const EXPO_PROJECT_ID = "";
