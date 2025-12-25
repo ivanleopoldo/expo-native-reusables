@@ -74,6 +74,8 @@ export default ({ config }: ConfigContext): ExpoConfig => {
           ...SPLASH_ICON,
         },
       ],
+      "expo-font",
+      "expo-web-browser"
     ],
     experiments: {
       typedRoutes: true,

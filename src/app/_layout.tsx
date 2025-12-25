@@ -1,4 +1,4 @@
-import "@root/global.css";
+import "@/global.css";
 import "react-native-reanimated";
 
 import { NAV_THEME } from "@/lib/theme";
